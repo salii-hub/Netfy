@@ -7,8 +7,6 @@
 
 ## 🌐 دمو
 
-بعد از دیپلوی:
-
 ```
 https://your-site.netlify.app
 ```
@@ -21,7 +19,7 @@ https://your-site.netlify.app
 * 🔁 انتقال کامل درخواست‌ها (Relay)
 * 🌍 اجرا روی CDN نتلیفای
 * 🔒 تنظیم دامنه با env
-* 🧩 ساختار ساده و سبک
+* 🧩 ساختار ساده و تمیز
 
 ---
 
@@ -40,9 +38,9 @@ https://your-site.netlify.app
 
 ---
 
-## ⚙️ متغیر محیطی (خیلی مهم)
+## ⚙️ متغیر محیطی (مهم)
 
-باید اینو ست کنی:
+باید این مقدار را تنظیم کنی:
 
 ```
 TARGET_DOMAIN=https://example.com
@@ -53,18 +51,12 @@ TARGET_DOMAIN=https://example.com
 ## 🚀 دیپلوی از طریق سایت Netlify
 
 1. برو به:
-
-```
-https://app.netlify.com
-```
+   https://app.netlify.com
 
 2. گزینه:
+   Add new project → Import from GitHub
 
-```
-Add new project → Import from GitHub
-```
-
-3. ریپوی خودت رو انتخاب کن
+3. ریپوی خودت را انتخاب کن
 
 4. تنظیمات:
 
@@ -102,14 +94,36 @@ netlify deploy --prod
 https://your-site.netlify.app
 ```
 
-درخواست‌ها به دامنه مقصد پاس داده می‌شن
+درخواست‌ها به دامنه مقصد پاس داده می‌شوند
+
+---
+
+## 💰 حمایت مالی (Solana)
+
+اگر این پروژه برات مفید بود:
+
+```
+E7S8EBUE5tkY5UaTgDvhaanJMeCi2DxPGYZukJGrJV8J
+```
+
+---
+
+## 📢 کانال تلگرام
+
+https://t.me/avaco_cloud
+
+---
+
+## 💬 ارتباط
+
+تلگرام: @ShakerFPS
 
 ---
 
 ## ⚠️ نکات مهم
 
 * فقط برای دامنه‌هایی که مالکشی استفاده کن
-* استفاده اشتباه ممکنه باعث بلاک شدن بشه
+* استفاده نادرست ممکنه باعث بلاک شدن بشه
 
 ---
 
