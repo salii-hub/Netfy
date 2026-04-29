@@ -1,7 +1,7 @@
 # 🚀 Netlify XHTTP Relay
 
 > Simple Netlify Edge Function relay project  
-> Created by **amirs**
+> Created by **Mirza**
 
 ---
 
