@@ -1,15 +1,6 @@
 # 🚀 Netlify XHTTP Relay
 
-> Simple Netlify Edge Function relay project  
-> Created by **Mirza**
 
----
-
-## 🇮🇷 Persian Guide
-
-Persian version: [README_FA.md](./README_FA.md)
-
----
 
 ## ⚠️ Important Notice
 
@@ -54,7 +45,7 @@ Use this project only with your own domain/server or with permission.
 You must set:
 
 ```txt
-TARGET_DOMAIN=https://your-domain.com:443
+WEB_URI=https://your-domain.com:443
 ```
 
 ### Important
@@ -125,21 +116,21 @@ Site configuration → Environment variables → Add variable
 Add:
 
 ```txt
-Key: TARGET_DOMAIN
+Key: WEB_URI
 Value: https://your-domain.com:443
 ```
 
 Example:
 
 ```txt
-TARGET_DOMAIN=https://example.com:443
+WEB_URI=https://example.com:443
 ```
 
 ---
 
 ### 4. Redeploy
 
-After adding `TARGET_DOMAIN`, redeploy:
+After adding `WEB_URI`, redeploy:
 
 ```txt
 Deploys → Trigger deploy → Deploy site
@@ -183,12 +174,12 @@ Add new project → Import an existing project → GitHub
 8. Add environment variable:
 
 ```txt
-TARGET_DOMAIN=https://your-domain.com:443
+WEB_URI=https://your-domain.com:443
 ```
 
 9. Deploy the site
 
-After changing `TARGET_DOMAIN`, always redeploy.
+After changing `WEB_URI`, always redeploy.
 
 
 ## 💻 Deploy with Netlify CLI
@@ -233,18 +224,18 @@ netlify init
 
 ---
 
-### 5. Set TARGET_DOMAIN
+### 5. Set WEB_URI
 
 The value must include port:
 
 ```bash
-netlify env:set TARGET_DOMAIN "https://your-domain.com:443" --scope functions --context production
+netlify env:set WEB_URI "https://your-domain.com:443" --scope functions --context production
 ```
 
 Example:
 
 ```bash
-netlify env:set TARGET_DOMAIN "https://example.com:443" --scope functions --context production
+netlify env:set WEB_URI "https://example.com:443" --scope functions --context production
 ```
 
 ---
@@ -258,7 +249,7 @@ netlify env:list
 or:
 
 ```bash
-netlify env:get TARGET_DOMAIN --context production
+netlify env:get WEB_URI --context production
 ```
 
 ---
@@ -326,7 +317,7 @@ Site → Edge Functions → relay → Logs
 
 ```bash
 netlify env:list
-netlify env:get TARGET_DOMAIN --context production
+netlify env:get WEB_URI --context production
 ```
 
 ### Test your backend
@@ -353,48 +344,14 @@ If this command fails, fix your backend/domain/port first.
 
 ## ✅ Quick Checklist
 
-- [ ] `TARGET_DOMAIN` is set
-- [ ] `TARGET_DOMAIN` includes `https://`
-- [ ] `TARGET_DOMAIN` includes port
+- [ ] `WEB_URI` is set
+- [ ] `WEB_URI` includes `https://`
+- [ ] `WEB_URI` includes port
 - [ ] Backend domain resolves publicly
 - [ ] Backend port is open
 - [ ] You redeployed after changing env
 
----
 
-## 💰 Donate
-
-https://reymit.ir/amirshaker
-
-Solana:
-
-```txt
-E7S8EBUE5tkY5UaTgDvhaanJMeCi2DxPGYZukJGrJV8J
-```
-
----
-
-## 📢 Telegram Channel
-
-```txt
-https://t.me/avaco_cloud
-```
-
----
-
-## 💬 Contact
-
-```txt
-@ShakerFPS
-```
-
----
-
-## 👤 Author
-
-**amirs**
-
----
 
 ## 📜 License
 
