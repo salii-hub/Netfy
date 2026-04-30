@@ -1,7 +1,7 @@
 {
-  "name": "netlify-xhttp-relay",
-  "version": "1.0.0",
-  "description": "Netlify Edge Function HTTP relay for your own upstream service",
+  "name": "netfy",
+  "version": "1.0.1",
+  "description": "Netfy Edge Function HTTP relay for your own upstream service",
   "private": true,
   "license": "MIT",
   "scripts": {
