@@ -1,4 +1,4 @@
-# 🚀 Netlify XHTTP Relay
+# 🚀 Netlify Relay
 
 
 
